@@ -42,7 +42,7 @@ Table of Contents
 2. Installation
 a. Clone the repository:
 
-git clone https://github.com/yourusername/feedback-validation-transformer.git
+git clone https://github.com/ASWINI-2004-WEB/feedback-validation-transformer
 cd feedback-validation-transformer
 
 b. Create and activate a virtual environment (recommended):
