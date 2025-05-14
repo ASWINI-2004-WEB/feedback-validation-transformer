@@ -15,7 +15,7 @@ def validate_feedback(text):
     return "Valid" if pred == 1 else "Invalid"
 
 # Streamlit UI
-st.title("Customer Feedback Validation (Transformer-Based)")
+st.title("Zero Education Students Feedback Validation (Transformer-Based)")
 st.write("Enter customer feedback below to check if it's valid or invalid:")
 
 user_input = st.text_area("Feedback Text", "")
