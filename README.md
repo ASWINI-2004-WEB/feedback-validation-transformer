@@ -1,7 +1,7 @@
-Transformer-Based Model for Contextual Feedback Validation in Customer Care
+Transformer-Based Model for Contextual Feedback Validation for Zero Education Center
 
 Overview
-This project provides an end-to-end solution for automatically validating customer feedback using a transformer-based NLP model (BERT) and a Streamlit web interface. The system classifies feedback as "valid" or "invalid" to streamline customer care operations and improve actionable insights.
+This project provides an end-to-end solution for automatically validating student feedback using a transformer-based NLP model (BERT) and a Streamlit web interface. The system classifies feedback as "valid" or "invalid" to streamline customer care operations and improve actionable insights.
 
 Features
 Fine-tuned BERT model for contextual feedback validation
@@ -74,8 +74,8 @@ Open your browser to the local URL provided (typically http://localhost:8501).
 Both train.csv and val.csv should have the following columns:
 
 text,label
-"The agent was very helpful and solved my issue quickly.",1
-"This is spam.",0
+"satisfied with the service,good quality of service",1
+"can you reactivate my subscription please,unable to unsubscribe",0
 ...
 text: Customer feedback (string)
 
